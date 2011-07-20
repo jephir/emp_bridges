@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "127"
+	"mapversion" "131"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -11,13 +11,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "1"
+	"nGridSpacing" "2"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "10"
-	"mapversion" "127"
+	"mapversion" "131"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -14990,7 +14990,7 @@ entity
 	"repairMultiplier" "1"
 	"SolidOnRespawn" "0"
 	"STFU" "1"
-	"targetname" "bridge1"
+	"targetname" "bridge_b1"
 	"timeToRespawn" "1"
 	"visibleToEnemy" "0"
 	solid
@@ -14999,7 +14999,7 @@ entity
 		side
 		{
 			"id" "72"
-			"plane" "(-1280 -816 1664) (4240 -816 1664) (4240 -2016 1664)"
+			"plane" "(-1280 -2016 1664) (-1280 -816 1664) (1480 -816 1664)"
 			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
 			"uaxis" "[1 0 0 0] 0.32"
 			"vaxis" "[0 -1 0 0] 0.32"
@@ -15010,7 +15010,7 @@ entity
 		side
 		{
 			"id" "71"
-			"plane" "(-1280 -2016 1568) (4240 -2016 1568) (4240 -816 1568)"
+			"plane" "(-1280 -816 1568) (-1280 -2016 1568) (1480 -2016 1568)"
 			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
 			"uaxis" "[1 0 0 0] 0.32"
 			"vaxis" "[0 -1 0 0] 0.32"
@@ -15021,7 +15021,7 @@ entity
 		side
 		{
 			"id" "70"
-			"plane" "(-1280 -816 1664) (-1280 -2016 1664) (-1280 -2016 1568)"
+			"plane" "(-1280 -2016 1568) (-1280 -816 1568) (-1280 -816 1664)"
 			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
 			"uaxis" "[0 1 0 0] 0.32"
 			"vaxis" "[0 0 -1 0] 0.32"
@@ -15032,7 +15032,7 @@ entity
 		side
 		{
 			"id" "69"
-			"plane" "(4240 -816 1568) (4240 -2016 1568) (4240 -2016 1664)"
+			"plane" "(1480 -816 1568) (1480 -2016 1568) (1480 -2016 1664)"
 			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
 			"uaxis" "[0 1 0 0] 0.32"
 			"vaxis" "[0 0 -1 0] 0.32"
@@ -15043,7 +15043,7 @@ entity
 		side
 		{
 			"id" "68"
-			"plane" "(4240 -816 1664) (-1280 -816 1664) (-1280 -816 1568)"
+			"plane" "(-1280 -816 1568) (1480 -816 1568) (1480 -816 1664)"
 			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
 			"uaxis" "[1 0 0 0] 0.32"
 			"vaxis" "[0 0 -1 0] 0.32"
@@ -15054,7 +15054,7 @@ entity
 		side
 		{
 			"id" "67"
-			"plane" "(4240 -2016 1568) (-1280 -2016 1568) (-1280 -2016 1664)"
+			"plane" "(1480 -2016 1568) (-1280 -2016 1568) (-1280 -2016 1664)"
 			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
 			"uaxis" "[1 0 0 0] 0.32"
 			"vaxis" "[0 0 -1 0] 0.32"
@@ -15092,7 +15092,7 @@ entity
 	"repairMultiplier" "1"
 	"SolidOnRespawn" "0"
 	"STFU" "1"
-	"targetname" "bridge2"
+	"targetname" "bridge_a1"
 	"timeToRespawn" "1"
 	"visibleToEnemy" "0"
 	solid
@@ -15101,7 +15101,7 @@ entity
 		side
 		{
 			"id" "84"
-			"plane" "(-7296 -5664 1664) (-1776 -5664 1664) (-1776 -6864 1664)"
+			"plane" "(-7296 -6864 1664) (-7296 -5664 1664) (-4536 -5664 1664)"
 			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
 			"uaxis" "[1 0 0 0] 0.32"
 			"vaxis" "[0 -1 0 0] 0.32"
@@ -15112,7 +15112,7 @@ entity
 		side
 		{
 			"id" "83"
-			"plane" "(-7296 -6864 1568) (-1776 -6864 1568) (-1776 -5664 1568)"
+			"plane" "(-7296 -5664 1568) (-7296 -6864 1568) (-4536 -6864 1568)"
 			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
 			"uaxis" "[1 0 0 0] 0.32"
 			"vaxis" "[0 -1 0 0] 0.32"
@@ -15123,7 +15123,7 @@ entity
 		side
 		{
 			"id" "82"
-			"plane" "(-7296 -5664 1664) (-7296 -6864 1664) (-7296 -6864 1568)"
+			"plane" "(-7296 -6864 1568) (-7296 -5664 1568) (-7296 -5664 1664)"
 			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
 			"uaxis" "[0 1 0 0] 0.32"
 			"vaxis" "[0 0 -1 0] 0.32"
@@ -15134,7 +15134,7 @@ entity
 		side
 		{
 			"id" "81"
-			"plane" "(-1776 -5664 1568) (-1776 -6864 1568) (-1776 -6864 1664)"
+			"plane" "(-4536 -5664 1568) (-4536 -6864 1568) (-4536 -6864 1664)"
 			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
 			"uaxis" "[0 1 0 0] 0.32"
 			"vaxis" "[0 0 -1 0] 0.32"
@@ -15145,7 +15145,7 @@ entity
 		side
 		{
 			"id" "80"
-			"plane" "(-1776 -5664 1664) (-7296 -5664 1664) (-7296 -5664 1568)"
+			"plane" "(-7296 -5664 1568) (-4536 -5664 1568) (-4536 -5664 1664)"
 			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
 			"uaxis" "[1 0 0 0] 0.32"
 			"vaxis" "[0 0 -1 0] 0.32"
@@ -15156,7 +15156,7 @@ entity
 		side
 		{
 			"id" "79"
-			"plane" "(-1776 -6864 1568) (-7296 -6864 1568) (-7296 -6864 1664)"
+			"plane" "(-4536 -6864 1568) (-7296 -6864 1568) (-7296 -6864 1664)"
 			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
 			"uaxis" "[1 0 0 0] 0.32"
 			"vaxis" "[0 0 -1 0] 0.32"
@@ -17498,5 +17498,209 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 10500]"
+	}
+}
+entity
+{
+	"id" "5033"
+	"classname" "emp_eng_map_brush"
+	"changeOwner" "0"
+	"damageMultiplier" "10"
+	"GrenadierOnly" "0"
+	"Health" "100"
+	"initialOwner" "1"
+	"MaximumHealth" "250"
+	"pointNumber" "0"
+	"raiseOnBuild" "0"
+	"repairMultiplier" "1"
+	"SolidOnRespawn" "0"
+	"STFU" "1"
+	"targetname" "bridge_a2"
+	"timeToRespawn" "1"
+	"visibleToEnemy" "0"
+	solid
+	{
+		"id" "5034"
+		side
+		{
+			"id" "96"
+			"plane" "(-4536 -6864 1664) (-4536 -5664 1664) (-1776 -5664 1664)"
+			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
+			"uaxis" "[1 0 0 0] 0.32"
+			"vaxis" "[0 -1 0 0] 0.32"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "95"
+			"plane" "(-4536 -5664 1568) (-4536 -6864 1568) (-1776 -6864 1568)"
+			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
+			"uaxis" "[1 0 0 0] 0.32"
+			"vaxis" "[0 -1 0 0] 0.32"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "94"
+			"plane" "(-4536 -6864 1568) (-4536 -5664 1568) (-4536 -5664 1664)"
+			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
+			"uaxis" "[0 1 0 0] 0.32"
+			"vaxis" "[0 0 -1 0] 0.32"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "93"
+			"plane" "(-1776 -5664 1568) (-1776 -6864 1568) (-1776 -6864 1664)"
+			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
+			"uaxis" "[0 1 0 0] 0.32"
+			"vaxis" "[0 0 -1 0] 0.32"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "92"
+			"plane" "(-4536 -5664 1568) (-1776 -5664 1568) (-1776 -5664 1664)"
+			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
+			"uaxis" "[1 0 0 0] 0.32"
+			"vaxis" "[0 0 -1 0] 0.32"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "91"
+			"plane" "(-1776 -6864 1568) (-4536 -6864 1568) (-4536 -6864 1664)"
+			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
+			"uaxis" "[1 0 0 0] 0.32"
+			"vaxis" "[0 0 -1 0] 0.32"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "5055"
+	"classname" "emp_eng_map_brush"
+	"changeOwner" "0"
+	"damageMultiplier" "10"
+	"GrenadierOnly" "0"
+	"Health" "100"
+	"initialOwner" "1"
+	"MaximumHealth" "250"
+	"pointNumber" "0"
+	"raiseOnBuild" "0"
+	"repairMultiplier" "1"
+	"SolidOnRespawn" "0"
+	"STFU" "1"
+	"targetname" "bridge_b2"
+	"timeToRespawn" "1"
+	"visibleToEnemy" "0"
+	solid
+	{
+		"id" "5056"
+		side
+		{
+			"id" "108"
+			"plane" "(1480 -2016 1664) (1480 -816 1664) (4240 -816 1664)"
+			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
+			"uaxis" "[1 0 0 0] 0.32"
+			"vaxis" "[0 -1 0 0] 0.32"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "107"
+			"plane" "(1480 -816 1568) (1480 -2016 1568) (4240 -2016 1568)"
+			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
+			"uaxis" "[1 0 0 0] 0.32"
+			"vaxis" "[0 -1 0 0] 0.32"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "106"
+			"plane" "(1480 -2016 1568) (1480 -816 1568) (1480 -816 1664)"
+			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
+			"uaxis" "[0 1 0 0] 0.32"
+			"vaxis" "[0 0 -1 0] 0.32"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "105"
+			"plane" "(4240 -816 1568) (4240 -2016 1568) (4240 -2016 1664)"
+			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
+			"uaxis" "[0 1 0 0] 0.32"
+			"vaxis" "[0 0 -1 0] 0.32"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "104"
+			"plane" "(1480 -816 1568) (4240 -816 1568) (4240 -816 1664)"
+			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
+			"uaxis" "[1 0 0 0] 0.32"
+			"vaxis" "[0 0 -1 0] 0.32"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "103"
+			"plane" "(4240 -2016 1568) (1480 -2016 1568) (1480 -2016 1664)"
+			"material" "COMMON/CONCRETE/PAVINGGROUND02A"
+			"uaxis" "[1 0 0 0] 0.32"
+			"vaxis" "[0 0 -1 0] 0.32"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
 	}
 }
