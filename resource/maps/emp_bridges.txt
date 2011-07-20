@@ -1,0 +1,46 @@
+"emp_bridges"
+{
+	//the location in the 'materials/' dir where the image for the map is
+	"image"		"maps/emp_bridges"
+
+	//the top left corner of the image which equals the top left corner 
+        //of the map coordinate below
+	"min_image_x"	"0"
+	"min_image_y"	"0"
+
+	//the bottom right corner of the image which equals the bottom right corner 
+        //of the map coordinate below
+	"max_image_x"	"1023"
+	"max_image_y"	"1023"
+	
+	//the top left corner of the map
+	"min_bounds_x"	"-15473"
+	"min_bounds_y"	"10079"
+
+	//the bottom right corner of the map
+	"max_bounds_x"	"10127"
+	"max_bounds_y"	"-15521"
+
+	//the size in map coordinates of each sector of a map (A1,F5, etc), a grid
+        //line is drawn around each sector on the minimap to visually segregate them 
+	
+    "sector_width"	"200"
+	"sector_height"	"200"
+
+	//There are four levels of zoom. These are the min and max which correspond to
+        //the amount of the map visible in the minimap panel when at that zoom level.
+
+	"min_zoom"	"1"
+	"max_zoom"	"0.25"
+
+	//Team panel descriptions
+	"nf_description" "The Northern Faction is less equipped and trained than the forces of the Brenodi Empire, but its forces make up for it with genetic manipulation and determination.  All members are ex-citizens of Jekotia whose disbanded military's past exploits into genetic manipulation were phased into the general population and provided a counter to Brenodi technology.  This gives them the advantage of more versatility in ability enhancement and an unmatchable level of cohesiveness and coordination.  They've managed to find support in ex-Jekotians hidden within the Brenodi Empire and among remnants of bunkers and weapon caches left over from the great battle which dissolved the nation of Jekotia."
+
+	"nf_objective" "Objective: Build refineries to gain resources and build up your army.  Then destroy the Brenodi Command Vehicle, or destroy all barracks (removing any place to spawn) and kill all members of the enemy team."
+
+
+	"imp_description" "The Brenodi Empire’s forces are equipped with state of the art weaponary and equipment.  All members undergo a strict training regiment to establish their combat effectiveness, and they are supported by the very best mechanized armor and air units.  All Brenodian citizens are required to receive an extensive set of nanotechnological devices to function, and their military relies on these nanotech enhancements to further enhance the abilities of their soldiers.  The Brenodi Empire wages an ongoing campaign to subdue the Northern Faction and eliminate their terrorist actions through force that have become all too common in ex-Jekotian territory."
+
+	"imp_objective" "Objective: Build refineries to gain resources and build up your army.  Then destroy the Northern Faction Command Vehicle, or destroy all barracks (removing any place to spawn) and kill all members of the enemy team."
+
+}
