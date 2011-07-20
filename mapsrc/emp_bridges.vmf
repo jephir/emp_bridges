@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "131"
+	"mapversion" "135"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -17,7 +17,7 @@ viewsettings
 world
 {
 	"id" "10"
-	"mapversion" "131"
+	"mapversion" "135"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -14492,6 +14492,7 @@ entity
 {
 	"id" "182"
 	"classname" "emp_info_params"
+	"CommanderFreezeTime" "0"
 	"ImpReinf" "200"
 	"ImpRes" "400"
 	"NFReinf" "200"
