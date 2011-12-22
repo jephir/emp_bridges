@@ -1,10 +1,10 @@
-"UnlitGeneric"
+UnlitGeneric
 {
-	"$baseTexture" "maps/emp_bridges"
-	"$vertexcolor" 1
-	"$vertexalpha" 1
-	"$no_fullbright" 1
-	"$ignorez" 1
-
-	"%keywords" "empires"
+	$translucent 1
+	$basetexture maps/emp_bridges
+	$vertexalpha 1
+	$no_fullbright 1
+	$ignorez 1
+	
+	%keywords empires
 }
