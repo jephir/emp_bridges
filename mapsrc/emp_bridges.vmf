@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "154"
+	"mapversion" "155"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -11,13 +11,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "1"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "10"
-	"mapversion" "154"
+	"mapversion" "155"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -17819,5 +17819,93 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "7351"
+	"classname" "func_viscluster"
+	solid
+	{
+		"id" "7349"
+		side
+		{
+			"id" "162"
+			"plane" "(-15500 15500 8192) (15500 15500 8192) (15500 -15500 8192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 6] 1"
+			"vaxis" "[0 -1 0 -30.022] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "161"
+			"plane" "(-15500 -15500 720) (15500 -15500 720) (15500 15500 720)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 6] 1"
+			"vaxis" "[0 -1 0 -30.022] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "160"
+			"plane" "(-15500 15500 8192) (-15500 -15500 8192) (-15500 -15500 720)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 30.022] 1"
+			"vaxis" "[0 0 -1 2] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "159"
+			"plane" "(15500 15500 720) (15500 -15500 720) (15500 -15500 8192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 30.022] 1"
+			"vaxis" "[0 0 -1 2] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "158"
+			"plane" "(15500 15500 8192) (-15500 15500 8192) (-15500 15500 720)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 4.49902] 1"
+			"vaxis" "[0 0 -1 2] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "157"
+			"plane" "(15500 -15500 720) (-15500 -15500 720) (-15500 -15500 8192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 4.49902] 1"
+			"vaxis" "[0 0 -1 2] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "180 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "180 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
 	}
 }
