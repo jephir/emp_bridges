@@ -18,8 +18,8 @@
 	"min_bounds_y"	"10292"
 
 	//the bottom right corner of the map
-	"max_bounds_x"	"10107"
-	"max_bounds_y"	"-15308"
+	"max_bounds_x"	"9100"
+	"max_bounds_y"	"-14400"
 
 	//the size in map coordinates of each sector of a map (A1,F5, etc), a grid
         //line is drawn around each sector on the minimap to visually segregate them 
