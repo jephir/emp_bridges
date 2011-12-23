@@ -24,8 +24,8 @@
 	//the size in map coordinates of each sector of a map (A1,F5, etc), a grid
         //line is drawn around each sector on the minimap to visually segregate them 
 	
-    "sector_width"	"200"
-	"sector_height"	"200"
+    "sector_width"	"256"
+	"sector_height"	"256"
 
 	//There are four levels of zoom. These are the min and max which correspond to
         //the amount of the map visible in the minimap panel when at that zoom level.
