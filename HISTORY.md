@@ -1,3 +1,8 @@
+## a3 (2011-12-23)
+
+* Triped resource rate from refineries
+* Changed sector widths to 256
+
 ## a2 (2011-12-22)
 
 * Changed water texture to common/water/water_pure01
