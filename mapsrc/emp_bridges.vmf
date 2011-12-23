@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "158"
+	"mapversion" "159"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -17,7 +17,7 @@ viewsettings
 world
 {
 	"id" "10"
-	"mapversion" "158"
+	"mapversion" "159"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -14274,7 +14274,7 @@ entity
 	"angles" "0 0 0"
 	"Enabled" "1"
 	"MaxResources" "-1"
-	"ResourcesSecond" "1"
+	"ResourcesSecond" "3"
 	"targetname" "resource_point_2"
 	connections
 	{
@@ -14347,7 +14347,7 @@ entity
 	"angles" "0 0 0"
 	"Enabled" "1"
 	"MaxResources" "-1"
-	"ResourcesSecond" "1"
+	"ResourcesSecond" "3"
 	"targetname" "resource_point_4"
 	connections
 	{
@@ -14420,7 +14420,7 @@ entity
 	"angles" "0 0 0"
 	"Enabled" "1"
 	"MaxResources" "-1"
-	"ResourcesSecond" "1"
+	"ResourcesSecond" "3"
 	"targetname" "resource_point_5"
 	connections
 	{
@@ -14493,7 +14493,7 @@ entity
 	"angles" "0 0 0"
 	"Enabled" "1"
 	"MaxResources" "-1"
-	"ResourcesSecond" "1"
+	"ResourcesSecond" "3"
 	"targetname" "resource_point_6"
 	connections
 	{
@@ -14566,7 +14566,7 @@ entity
 	"angles" "0 0 0"
 	"Enabled" "1"
 	"MaxResources" "-1"
-	"ResourcesSecond" "1"
+	"ResourcesSecond" "3"
 	"targetname" "resource_point_7"
 	connections
 	{
@@ -14639,7 +14639,7 @@ entity
 	"angles" "0 0 0"
 	"Enabled" "1"
 	"MaxResources" "-1"
-	"ResourcesSecond" "1"
+	"ResourcesSecond" "3"
 	"targetname" "resource_point_8"
 	connections
 	{
@@ -14712,7 +14712,7 @@ entity
 	"angles" "0 0 0"
 	"Enabled" "1"
 	"MaxResources" "-1"
-	"ResourcesSecond" "1"
+	"ResourcesSecond" "3"
 	"targetname" "resource_point_9"
 	connections
 	{
