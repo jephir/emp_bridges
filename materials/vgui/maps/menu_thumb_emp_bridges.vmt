@@ -1,7 +1,7 @@
-"UnlitGeneric"
+UnlitGeneric
 {
- "$basetexture" "vgui\maps\menu_thumb_emp_bridges"
- "$translucent" 1
- "$ignorez" 1
- "$vertexcolor" 1
-} 
+	$basetexture vgui\maps\menu_thumb_emp_bridges
+	$translucent 1
+	$ignorez 1
+	$vertexcolor 1
+}
